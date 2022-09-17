@@ -44,6 +44,7 @@ const ChannelListContainer = () => {
           List={(listProps) => (
             <TeamChannelList 
               { ... listProps}
+              type='team'
             />
           )}
         />  
